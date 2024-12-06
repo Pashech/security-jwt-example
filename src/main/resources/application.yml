@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    properties:
+      jdbc:
+        lob:
+          non_contextual_creation: true
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+secret:
+  app:
+    jwtSecret: 5345g3f5hgf3hg4f6h54g6fhgf64h6
+    jwtExpirationMs: 86400000

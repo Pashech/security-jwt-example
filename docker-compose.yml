@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "security"
+      POSTGRES_USER: "pashech"
+      POSTGRES_PASSWORD: "5908299"
+    ports:
+      - "5432:5432"
+
